@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilo.css">
+    <link rel="shortcut icon" href="Favicons/icons8-deadlift-skin-type-3-96.png" type="image/x-icon">
+
+    
+    <title>IMC</title>
+</head>
+<body>
+        <h1>Teste de IMC</h1>
+    <form id="form">
+
+        <label for="altura">Altura:</label>
+        <input id="altura" type="number" aria-label="Altura">
+
+        <label for="peso">Peso:</label>
+        <input id="peso"  type="number"  aria-label="Peso">
+
+        <button id="Calcular" type="button" onclick="calculaIMC()"    >Calcular</button>  
+    </form>
+
+    <p id="rst"> Seu IMC é: <strong id="imc-rst"></strong></p>
+
+    <p id="classificao"></p>
+
+    <img id="imagem" src="imagem/3.png" alt="" width="600" height="350">
+    
+    
+    <script src="codigoTeste.js"></script>
+</body>
+</html>
